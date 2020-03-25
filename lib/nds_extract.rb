@@ -53,9 +53,9 @@ end
   counter=0 
   while counter<collection.length do
     movie_info= collection[counter]
-    binding.pry 
     if !studio[movie_info[:studio]] 
       studio[movie_info[:studio]]=movie_info[:worldwide_gross] 
+      binding.pry 
     else
     studio[movie_info[:studio]]=movie_info[:worldwide_gross]+studio[:worldwide_gross]
   end 
