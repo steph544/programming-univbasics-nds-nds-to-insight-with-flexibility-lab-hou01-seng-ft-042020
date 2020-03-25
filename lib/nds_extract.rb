@@ -60,7 +60,8 @@ end
   end 
     counter+=1
   end
-    studio[movie_info[studio]]
+    studio
+    binding.pry
   end
   
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
