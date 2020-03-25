@@ -61,7 +61,6 @@ end
     counter+=1
   end
     studio
-    binding.pry 
   end
   
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
