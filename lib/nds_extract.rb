@@ -84,7 +84,7 @@ def movies_with_directors_set(source)
   element_index=0 
   while element_index<source.length do
     binding.pry
-  newarray2 << source[:name]
+  newarray2 << source[:na]
   element_index+=1 
 end
   newarray2
