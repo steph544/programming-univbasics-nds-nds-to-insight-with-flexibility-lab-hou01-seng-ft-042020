@@ -53,7 +53,6 @@ end
   counter=0 
   while counter<collection.length do
     movie_info= collection[counter]
-    binding.pry 
     if 
       !studio[movie_info][:studio]
       then studio[movie_info]=movie_info[:worldwide_gross] 
