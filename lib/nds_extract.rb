@@ -83,9 +83,8 @@ def movies_with_directors_set(source)
   newarray2=[]
   element_index=0 
   while element_index<source.length do
-   # binding.pry
+   binding.pry
   newarray2 << [{:title => "banana", :director_name => source[element_index][:name], :worldwide_gross =>source[element_index][:movies][element_index][worldwide_gross], studio: ''}]
-  binding.pry 
   element_index+=1 
 end
   newarray2
