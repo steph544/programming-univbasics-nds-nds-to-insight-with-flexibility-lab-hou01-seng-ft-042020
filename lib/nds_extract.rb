@@ -52,7 +52,7 @@ end
   studio={}
   counter=0 
   while counter<collection.length do
-    movie_info= collection[counter]
+    movie_info= collection[counter][:movie]
     if !studio[movie_info[:studio]] 
       studio[movie_info[:studio]]=movie_info[:worldwide_gross] 
     else
