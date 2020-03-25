@@ -60,6 +60,7 @@ end
   end 
     counter+=1
   end
+  binding.pry
     studio
   end
   
