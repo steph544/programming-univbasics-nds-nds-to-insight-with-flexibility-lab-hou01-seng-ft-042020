@@ -83,6 +83,7 @@ end
           # becomes... [[{:title => "Test", :director_name => "A"}], ...[], ... []]
           
 def movies_with_directors_set(source)
+  binding.pry 
   newarray2=[]
   element_index=0 
   while element_index<source.length do
