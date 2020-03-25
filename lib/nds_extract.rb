@@ -86,7 +86,7 @@ def movies_with_directors_set(source)
   newarray2=[]
   element_index=0 
   while element_index<source.length do
-  newarray2 << movies_with_directors_key(source[element_index][:name], source[element_index][:movies])
+  newarray2 << movies_with_director_key(source[element_index][:name], source[element_index][:movies])
   element_index+=1 
 end
   newarray2
