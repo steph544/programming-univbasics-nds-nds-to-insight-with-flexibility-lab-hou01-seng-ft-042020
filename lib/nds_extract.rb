@@ -59,9 +59,9 @@ end
     studio[movie_info[:studio]]=movie_info[:worldwide_gross]+studio[movie_info[:studio]]
   end 
     counter+=1
-    binding.pry
   end
     studio
+    binding.pry
   end
   
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
