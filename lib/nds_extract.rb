@@ -55,11 +55,11 @@ end
     movie_info= collection[counter]
     if !studio[movie_info[:studio]] 
       studio[movie_info[:studio]]=movie_info[:worldwide_gross] 
-      binding.pry 
     else
     studio[movie_info[:studio]]=movie_info[:worldwide_gross]+studio[movie_info[:studio]]
   end 
     counter+=1
+    binding.pry
   end
     studio
   end
