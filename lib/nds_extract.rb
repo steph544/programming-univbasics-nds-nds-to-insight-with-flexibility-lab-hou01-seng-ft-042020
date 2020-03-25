@@ -75,6 +75,10 @@ end
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
 
+
+ # { :name => "A", :movies => [{ :title => "Test" }] }
+          # becomes... [[{:title => "Test", :director_name => "A"}], ...[], ... []]
+          
 def movies_with_directors_set(source)
   newarray2=[]
   element_index=0 
