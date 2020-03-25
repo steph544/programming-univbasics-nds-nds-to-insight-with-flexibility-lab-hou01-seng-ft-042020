@@ -37,10 +37,10 @@ def movies_with_director_key(name, movies_collection)
 newarray=[]
   element_index=0
    while element_index<movies_collection.length do 
-   results={}
-   results[:director_name]=name
-   results[:movie]=movies_collection[element_index]
-   newarray << results
+  # results={}
+  # results[:director_name]=name
+  # results[:movie]=movies_collection[element_index]
+  # newarray << results
    element_index+=1
   end
 newarray
