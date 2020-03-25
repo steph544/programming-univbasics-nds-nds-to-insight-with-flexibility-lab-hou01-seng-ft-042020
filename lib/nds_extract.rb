@@ -83,7 +83,7 @@ def movies_with_directors_set(source)
   newarray2=[]
   element_index=0 
   while element_index<source.length do
-  newarray2 << [{:title => "banana", :director_name => source[element_index][:name], :worldwide_gross => 5, :studio => source[element_index][:movie][element_index][:studio]}]
+  newarray2 << [{:title => "banana", :director_name => source[element_index][:name], :worldwide_gross => source[element_index][:movie][element_index][:worldwide_gross], :studio => source[element_index][:movie][element_index][:studio]}]
   element_index+=1 
 end
   newarray2
