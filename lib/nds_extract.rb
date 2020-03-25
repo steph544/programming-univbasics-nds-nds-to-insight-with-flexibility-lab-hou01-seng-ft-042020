@@ -55,7 +55,8 @@ end
     movie_info= collection[counter]
     if 
       !studio[movie_info[:studio]
-      then studio[movie_info[:studio]]=movie_info[:worldwide_gross] 
+    then 
+      studio[movie_info[:studio]]=movie_info[:worldwide_gross] 
     else
     studio[movie_info[:studio]]=movie_info[:worldwide_gross]+studio[movie_info[:studio]]
   end 
