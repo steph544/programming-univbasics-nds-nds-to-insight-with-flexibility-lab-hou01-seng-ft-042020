@@ -41,6 +41,9 @@ newarray=[]
   # results[:director_name]=name
   # results[:movie]=movies_collection[element_index]
   # newarray << results
+  
+  newarray << movie_with_director_name(name, movies_collection[element_index])
+  
    element_index+=1
   end
 newarray
